@@ -1,0 +1,270 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 144rem; */
+    min-height: 100vh;
+}
+
+
+.container {
+    max-width: 75rem;
+    /* max-height: 75rem; */
+    /* border: 5px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container > * {
+    flex: 1;
+}
+
+.card-one {
+    padding: 0 0 2rem 0;
+
+    background-color: hsl(31, 77%, 52%);
+}
+
+.svg-card {
+    margin-bottom: 3rem;
+    padding: 4rem 4rem 1.2rem 4rem;
+}
+
+.card-title {
+    padding: 0 4rem;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    color: hsl(0, 0%, 95%);
+}
+
+.para {
+    padding: 1rem 0 2rem 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    width: 75%;
+    margin-bottom: 7rem;
+    word-spacing: 1px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    margin: 2rem 4.2rem ;
+    border: 3px solid ;
+    border-radius: 2rem;
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btnlink {
+    border-radius: 2rem;
+    /* background-color: hsl(0, 0%, 95%); */
+    padding:1.2rem 3.1rem ;
+    color: hsl(31, 77%, 52%);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+ .btnlink:hover,
+ .btn:active {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+/************************/
+/***** SECOND CARD  *****/
+/************************/
+
+
+.card-two {
+    padding: 0 0 2rem 0;
+
+    background-color: hsl(184, 100%, 22%);
+}
+
+
+
+.btnlink2 {
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 95%);
+    padding:1.1rem 3.1rem ;
+    color: hsl(184, 100%, 22%);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+ .btnlink3:hover,
+ .btnlink2:active {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+
+
+
+
+
+/************************/
+/***** THRID CARD  *****/
+/************************/
+
+.card-three {
+    padding: 0 0 2rem 0;
+
+    background-color:hsl(179, 100%, 13%);
+}
+
+
+
+.btnlink3 {
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 95%);
+    padding:1.1rem 3.1rem ;
+    color: hsl(179, 100%, 13%);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+ .btnlink3.btnlink:hover,
+ .btnlink3:active {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+    .container {
+        max-width: 30rem;
+        /* max-height: 75rem; */
+
+        /* border: 5px solid black; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        
+    }
+    .container > * {
+        flex: 1;
+    }
+    
+    .card-one {
+        padding: 0 0 2rem 0;
+    
+        background-color: hsl(31, 77%, 52%);
+    }
+    
+    .svg-card {
+        margin-bottom: 2rem;
+        padding: 4rem 4rem 1.2rem 4rem;
+    }
+    
+    .card-title {
+        padding: 0 1.8rem 0 4rem;
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+        color: hsl(0, 0%, 95%);
+    }
+    
+    .para {
+        padding: .5rem 0 1rem 4rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.5rem;
+        width: 75%;
+        margin-bottom: 3rem;
+        word-spacing: 1px;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    button {
+        margin: 1rem 3.2rem ;
+        border: 3px solid ;
+        border-radius: 2rem;
+        border-color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    .btnlink {
+        border-radius: 2rem;
+        /* background-color: hsl(0, 0%, 95%); */
+        padding:1.2rem 3.1rem ;
+        color: hsl(31, 77%, 52%);
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    
+     .btnlink:hover,
+     .btn:active {
+        background-color: hsl(31, 77%, 52%);
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    .btnlink2 {
+        border-radius: 2rem;
+        background-color: hsl(0, 0%, 95%);
+        padding:1.1rem 3.1rem ;
+        color: hsl(184, 100%, 22%);
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    
+     .btnlink3:hover,
+     .btnlink2:active {
+        background-color: hsl(184, 100%, 22%);
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    .btnlink3 {
+        border-radius: 2rem;
+        background-color: hsl(0, 0%, 95%);
+        padding:1.1rem 3.1rem ;
+        color: hsl(179, 100%, 13%);
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    
+     .btnlink3.btnlink:hover,
+     .btnlink3:active {
+        background-color: hsl(179, 100%, 13%);
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
